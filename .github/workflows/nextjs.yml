@@ -52,7 +52,7 @@ jobs:
 
       # Generates the static HTML/CSS/JS export into the ./out directory
       - name: Build with Next.js
-        run: bun run build
+        run: bun x next build
 
       # Upload the exported ./out directory as an artifact for GitHub Pages
       - name: Upload artifact
